@@ -1,0 +1,27 @@
+<!--
+『Androidアプリ開発の教科書』
+第11章
+Web API連携サンプル
+
+@author Shinzo SAITO
+
+res/values/string.xmlファイル
+-->
+<resources>
+    <string name="app_name">お出かけ支援アプリ</string>
+    <string name="title">お出かけ支援アプリ</string>
+    <string name="current_hint">現在地</string>
+    <string name="waypoint_hint">経由地</string>
+    <string name="destination_hint">目的地</string>
+    <string name="info">上手くいかない場合は、正式な「都道府県市区町村」名で入力してください。</string>
+    <string name="line" translatable="false">ーーーーーーーーーーーーーーーーーーーーーーーーーーー</string>
+
+    <string name="to">宛先</string>
+    <string name="subject">件名</string>
+    <string name="message">本文</string>
+    <string name="send">送信</string>
+
+    <string name="weather">の天気</string>
+    <string name="now">現在は</string>
+
+</resources>
