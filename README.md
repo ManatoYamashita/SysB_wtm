@@ -1,7 +1,6 @@
 # SysB_wtm
 
-天気予報行動提案Androidアプリ「WTM（Where to me）」
-
+天気予報行動提案Androidアプリ「WTM（Where to me）」 / 
 project for a class named System development B TCU
 
 ### Members
@@ -26,37 +25,38 @@ project for a class named System development B TCU
 
 ### Sub Function
 * クソ広告
-  画面下部にいかがわしい広告を表示。タップすると東京都市大学 メディア情報学部 情報システム学科のページ(https://infomatics.tcu.ac.jp)にリダイレクトする
+  画面下部にいかがわしい広告を表示。タップすると(東京都市大学 メディア情報学部 情報システム学科のページ)[https://informatics.tcu.ac.jp/faculty/system/] にリダイレクトする
   
 ## Directorys
-* src/main
-  * MainActivity.java（または相当するファイル）
-    現在地、経由地、目的地をキーボードから受け取る。それらの情報をもとに、天気、経路、観光地、待ち合わせ場所を確認できるボタンをそれぞれ用意されている。天気を表示するボタンを押下するごとに、現在地、経由地、目的地の天候情報を表示。画面右上のアクションバーからメールを送信できる。マップを表示するボタンを押すとGoogle マップから経路が表示され、おすすめスポットを表示するボタンを押すとGoogle検索で「目的地 + おすすめスポット」で検索。待ち合わせボタンを押すとGoogleマップから「出発地 + 近くの駅」で検索する。
-  * AddActivity.java
-  * MailActivity.java
-    送信先メールアドレス、要件、内容を入力できるテキストボックスからメールを作成し、送信ボタンからメールを送信可能。
-  * SpotShow.java
-    MainActivity.javaから受け取った目的地から近くのおすすめのスポットをGoogle検索する。
-* res／drawable-hdpiフォルダ内
-  * launcher用アイコン画像ファイル
-    画像を貯蓄し名称を定める。その名称を各所から呼び出された際に画像の情報を送る。
-  * その他の画像ファイル
-* res／layoutフォルダ内
-  * activity_main.xml　（部品レイアウト記述ファイル）
-    MainActivity.javaで入力した内容に準じて画面のレイアウトを行う。リストやテキスト、ボタンの配置や大きさを設定し表示させる。
-  * activity_mail.xml
-    MailActivity.javaで入力した内容に準じて画面のレイアウトを行う。リストやテキスト、ボタンの配置や大きさを設定し表示させる。
-* res／valuesフォルダ内
-  * dimensions.xml
-  * strings.xml
-    MainActyvity.javaで利用するテキストの情報を格納する。各所で呼び出された際に対応する文字列情報を送る。
-  * styles.xml
-  * colors.xml
-  * menu.xml
-    アクションバーを使用するための設定が記述されている。 
-* AndroidManifest.xml
-  システムを動かす上での基礎設定を記述している。 MainActivity.java上必要な権​限の設定など、逐次記入する。
-　・その他（依存関係）
+
+  * src/main
+    * MainActivity.java（または相当するファイル）
+      現在地、経由地、目的地をキーボードから受け取る。それらの情報をもとに、天気、経路、観光地、待ち合わせ場所を確認できるボタンをそれぞれ用意されている。天気を表示するボタンを押下するごとに、現在地、経由地、目的地の天候情報を表示。画面右上のアクションバーからメールを送信できる。マップを表示するボタンを押すとGoogle マップから経路が表示され、おすすめスポットを表示するボタンを押すとGoogle検索で「目的地 + おすすめスポット」で検索。待ち合わせボタンを押すとGoogleマップから「出発地 + 近くの駅」で検索する。
+    * AddActivity.java
+    * MailActivity.java
+      送信先メールアドレス、要件、内容を入力できるテキストボックスからメールを作成し、送信ボタンからメールを送信可能。
+    * SpotShow.java
+      MainActivity.javaから受け取った目的地から近くのおすすめのスポットをGoogle検索する。
+  * res／drawable-hdpiフォルダ内
+    * launcher用アイコン画像ファイル
+      画像を貯蓄し名称を定める。その名称を各所から呼び出された際に画像の情報を送る。
+    * その他の画像ファイル
+  * res／layoutフォルダ内
+    * activity_main.xml　（部品レイアウト記述ファイル）
+      MainActivity.javaで入力した内容に準じて画面のレイアウトを行う。リストやテキスト、ボタンの配置や大きさを設定し表示させる。
+    * activity_mail.xml
+      MailActivity.javaで入力した内容に準じて画面のレイアウトを行う。リストやテキスト、ボタンの配置や大きさを設定し表示させる。
+  * res／valuesフォルダ内
+    * dimensions.xml
+    * strings.xml
+      MainActyvity.javaで利用するテキストの情報を格納する。各所で呼び出された際に対応する文字列情報を送る。
+    * styles.xml
+    * colors.xml
+    * menu.xml
+      アクションバーを使用するための設定が記述されている。 
+  * AndroidManifest.xml
+    システムを動かす上での基礎設定を記述している。 MainActivity.java上必要な権​限の設定など、逐次記入する。
+  　・その他（依存関係）
 
 ## Fllow 
 * MainActivity
