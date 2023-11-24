@@ -1,6 +1,7 @@
 # SysB_wtm
 
 天気予報行動提案Androidアプリ「WTM（Where to me）」
+
 project for a class named System development B TCU
 
 ### Members
@@ -59,6 +60,7 @@ project for a class named System development B TCU
 
 ## Fllow 
 * MainActivity
- <img width="219" alt="スクリーンショット 2023-11-24 15 04 21" src="https://github.com/ManatoYamashita/SysB_wtm/assets/95745485/d67a153a-e24f-4766-82b7-abef02acdfd2">
+  <img width="219" alt="スクリーンショット 2023-11-24 15 04 21" src="https://github.com/ManatoYamashita/SysB_wtm/assets/95745485/d67a153a-e24f-4766-82b7-abef02acdfd2">
+
 * MailActivity
-<img width="273" alt="スクリーンショット 2023-11-24 15 05 01" src="https://github.com/ManatoYamashita/SysB_wtm/assets/95745485/950c42fd-d21b-4464-af61-25cb30d6d214">
+  <img width="273" alt="スクリーンショット 2023-11-24 15 05 01" src="https://github.com/ManatoYamashita/SysB_wtm/assets/95745485/950c42fd-d21b-4464-af61-25cb30d6d214">
