@@ -28,8 +28,8 @@ lang `Java`, build with `Gradle`, developed in `Android Studio`
 
 ### Sub Function
 * クソ広告
-  画面下部にいかがわしい広告を表示。タップすると(東京都市大学 メディア情報学部 情報システム学科のページ)[https://informatics.tcu.ac.jp/faculty/system/] にリダイレクトする。これは課題の評価基準の一つ「都市大らしさ」、「情報システム学科らしさ」を満たす重要な要素である。
-<img width="200" src="https://github.com/ManatoYamashita/SysB_wtm/assets/95745485/f917cfa4-83f0-4608-92ed-541a9303511e" />
+<img width="300" src="https://github.com/ManatoYamashita/SysB_wtm/assets/95745485/f917cfa4-83f0-4608-92ed-541a9303511e" />
+画面下部にいかがわしい広告を表示。タップすると(東京都市大学 メディア情報学部 情報システム学科のページ)[https://informatics.tcu.ac.jp/faculty/system/] にリダイレクトする。これは課題の評価基準の一つ「都市大らしさ」、「情報システム学科らしさ」を満たす重要な要素である。
   
 ## Directorys
 
