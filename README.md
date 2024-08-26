@@ -1,4 +1,4 @@
-# SysB_wtm
+# システム開発演習B 最終課題 おでかけ支援アプリ "WTM"
 
 **天気予報行動提案Androidアプリ　『WTM（Where to me）』** / 
 project for a class named System development B TCU
